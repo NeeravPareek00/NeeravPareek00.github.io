@@ -1,0 +1,67 @@
+*{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+
+  .lbody{
+    background-color: rgb(196, 200, 239);
+    
+    margin: 10px;
+    padding: 20px;
+  }
+.lcontainer{
+    
+    position: center;
+    margin-top: 210px;
+    margin-left: 350px;
+    
+    place-items: center;
+    background-color: rgb(229, 187, 229);
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0,0,0.2),0 17px 50px 0 rgba(0, 0,0,0.219);
+    height: 450px;
+    
+
+
+    
+}
+.lname{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  text-decoration: none;
+  text-align: left;
+  padding: 5px;
+  margin-top: 10px;
+
+}
+.lfield{
+  
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  
+
+}
+.lbutton{
+  background-color: purple;
+  text-align: centre;
+  color: white;
+  font-weight: 100;
+  padding: 5px;
+  margin: 0;
+  margin-top: 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  box-sizing: content-box;
+  width: 300px;
+  height: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0,0,0.2),0 17px 50px 0 rgba(0, 0,0,0.219);
+  
+}
+.lhead{padding-top: 25px;
+text-align: center;
+padding-bottom: 30px;
+}
