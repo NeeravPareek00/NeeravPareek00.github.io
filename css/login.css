@@ -19,106 +19,39 @@
     width: 400px;
     box-shadow: 0 8px 16px 0 rgba(0, 0,0,0.2),0 17px 50px 0 rgba(0, 0,0,0.219);
     height: 450px;
-    
-
-
-    
-}
-.lname{
-  font-family: sans-serif;
-  font-size: 24px;
-  font-weight: 100;
-  text-decoration: none;
-  text-align: left;
-  padding: 5px;
-  margin-top: 10px;
-  margin-left: 6px;
-
-}
-.lfield{
-  
-  padding: 5px;
-  border: none;
-  border-radius: 10px;
-  width: 300px;
-  height: 40px;
-  margin: 10px;
-  
-
-}
-.lbutton{
-  background-color: pink;
-  text-align: centre;
-  color: black;
-  font-weight: 100;
-  padding: 5px;
-  margin-top: 25px;
-  margin-left: 6px;
-  border: none;
-  cursor: pointer;
-  border-radius: 7px;
-  box-sizing: content-box;
-  width: 300px;
-  height: 30px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0,0,0.2),0 17px 50px 0 rgba(0, 0,0,0.219);
-  
-}
-.lhead{
-  padding-top: 25px;
-  text-align: center;
-  padding-bottom: 30px;
-}
-@media screen and (max-width: 768px){
-  .lcontainer{
-    
-    
-    background-color: rgb(229, 187, 229);
-    border: none;
-    border-radius: 10px;
-    display: flexbox;
-    float: left;
-    
-    box-shadow: 0 8px 16px 0 rgba(0, 0,0,0.2),0 17px 50px 0 rgba(0, 0,0,0.219);
-    
-  }
-  .lname{
-    font-family: sans-serif;
-    font-size: 24px;
-    font-weight: 100;
-    text-decoration: none;
-    text-align: left;
-    padding: 5px;
-    margin-top: 10px;
-    margin-left: 6px;
-
   }
   .lfield{
-  
-    padding: 5px;
     border: none;
     border-radius: 10px;
-    width: auto;
-    height: 40px;
-    margin: 10px;
-  
+    height: 30px;
+    width: 90%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 5px;
+  }
+  .lname{
+   
+    justify-content: baseline;
+    font-size: 30px;
+    margin-left: 5px;
 
+  }
+  .lhead{
+    text-align: center;
+    margin: 15px;
   }
   .lbutton{
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
     background-color: pink;
-    text-align: centre;
-    color: black;
-    font-weight: 100;
-    padding: 5px;
-    width:50%;
-    border: none;
-    cursor: pointer;
-    border-radius: 7px;
-    box-sizing: content-box;
-    width: auto;
-    height: 30px;
     box-shadow: 0 8px 16px 0 rgba(0, 0,0,0.2),0 17px 50px 0 rgba(0, 0,0,0.219);
-  
+    border-radius: 10px;
+    border: none;
   }
-
-
-}
+  @media screen and (max-width: 768px){
+    .lcontainer{
+      width: 70%;
+    }
+    
+  }
